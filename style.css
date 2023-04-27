@@ -1,0 +1,69 @@
+.contenedor {
+    width: 500px;
+    height: full;
+    margin: 100px;
+    background-color: rgb(62, 62, 237);
+    padding: 20px 0px;
+}
+
+.titulo {
+    color: rgb(62, 62, 237);
+    background-color: white;
+    text-align: center;
+}
+
+.contorno {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.listado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto {
+    width: 100%;
+    margin-right: 20px;
+    border: 1px solid rgb(62, 62, 237);
+    border-radius: 10px;
+}
+.contiene-tareas {
+    padding-left: 0px;
+}
+
+.boton {
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(160, 211, 213);
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+li p{
+    padding-left: 15px;
+}
+
+.borrar {
+   
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
